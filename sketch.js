@@ -118,12 +118,16 @@ if (sectionNum === 2) {
 
 if (sectionNum == 2 && speaker == true) {
 	change = "success1";
+	speaker = false;
 } else if (sectionNum == 2 && net == true) {
 	change = "fail 1";
+	net = false;
 } else if (sectionNum == 2 && shield == true) {
 	change = "fail 1";
+	shield = false;
 } else if (sectionNum == 2 && chicken == true) {
 	change = "fail 1";
+	chicken = false;
 }
 
 if (change === "success1") {
