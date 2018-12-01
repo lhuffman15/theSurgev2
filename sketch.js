@@ -45,18 +45,6 @@ function preload(){
 	section0 = loadImage('assets/video1_intro.jpg');
 	section1 = loadImage('assets/sec.jpg');
 	section2 = loadImage('assets/sec2.jpg');
-	
-}
-
-function setup() {
-	createCanvas(w, h + 350);
-	if (sectionNum == 0) {
-		image(section0, 0, 0, w, h);
-	}
-	textFont(playFont);
-	// textAlign(CENTER, CENTER);
-	textSize(38);
-	fill(textFill);
 	section3 = loadImage('assets/sec3.jpg');
 	section4 = loadImage('assets/sec4.jpg');
 	section5 = loadImage('assets/sec5.jpg');
@@ -75,6 +63,19 @@ function setup() {
 	fail1 = loadImage('assets/fail1.png');
 	fail2 = loadImage('assets/fail2.png');
 	fail3 = loadImage('assets/fail3.png');
+	
+}
+
+function setup() {
+	createCanvas(w, h + 350);
+	if (sectionNum == 0) {
+		image(section0, 0, 0, w, h);
+	}
+	textFont(playFont);
+	// textAlign(CENTER, CENTER);
+	textSize(38);
+	fill(textFill);
+
 }
 
 
